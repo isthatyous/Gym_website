@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Fitness First </title>
+    <link rel="stylesheet" href="css/style.css">
+   
+</head>
+<style>
+    body{
+        color: aliceblue;
+        margin: 0px;
+        padding: 0px;
+        background-image: url(images/background2.jpg);
+        background-size:cover;
+        
+    }
+    .left{
+        display: inline-block;
+      
+        position: absolute;
+        left: 34px;
+        top: 22px;
+
+    }
+
+   .mid{
+   /* border: 4px solid white;*/
+    display: block;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    
+    }
+
+    .right{
+
+       /* border: 4px solid yellow;*/
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 22px;
+    }
+    .navbar{
+        display: inline-block;
+
+
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 25px;
+
+    }
+    .navbar li a{
+        color: aliceblue;
+        padding: 25px 20px;
+        text-decoration: none;
+       
+    }
+    .navbar li a:hover{
+        text-decoration:underline;
+        color:blue
+        
+    }
+    .left img{
+        width: 80px;
+        text-align: center;
+        
+    }
+    .left div{
+        
+        font-size: 12px;
+        font-family:cursive;
+         color:white
+    }
+    .left div:hover{
+        color: brown;
+    }
+    .btn{
+        border: 2px solid gray;
+        border-radius: 5px;
+        /*background-color: rgba(8, 107, 220, 0.208);*/
+        background-color: black;
+        color: white;
+        margin: 10px 10px;
+        padding: 4px 16px;
+        font-size: 15px;
+        font-weight: 550;
+        cursor: pointer;
+    }
+
+  .btn:hover{
+    
+    background-color: gray;
+  }
+.btn:visited{
+    background-color: bisque;
+}
+.container{
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 84px 55px;
+    padding: 47px;
+    width: 40%;
+
+}
+.form-group input{
+    font-family: cursive;
+    text-align: center;
+    font-size: 16px;
+    border: 2px solid green;
+    border-radius: 10px;
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 2px 10px; 
+    background-color:white;
+    cursor: pointer; 
+}
+.container .btn{
+    display: block;
+    width: 73%;
+    margin: auto;
+}
+.container.btn:hover{
+    color: gray;
+}
+.form-group :hover{
+    color: blue;
+
+}
+
+    
+
+.container h1{
+    text-align: center;
+}
+
+
+</style>
+<body> 
+    <header class="header">
+        <!--left box for logo-->
+    <div class="left"> 
+        <img src="images/logo1.jpg" alt="this is a logo">
+ <div> FITNESS CLUB</div>
+ 
+    </div>
+<!--mid box for navigation bar-->
+    <div class="mid">
+ <ul class="navbar">
+     <li><a href="https://www.fitnessfirst.net.in/"  class="active" target="_blank"> Home</a></li>
+     <li><a href="#">About Us</a></li>
+     <li><a href="#">Fitness Calculator</a></li>
+     <li><a href="#">Contact Us</a></li>
+
+ </ul>
+
+    </div>
+<!--right box for buttons -->
+   <div class="right">
+   <button   class="btn" >Call Us  Now</button>
+   <button class="btn">Email Us</button>
+   </div>
+  
+   </div>
+</header>
+
+<div class="container">
+    <h1> Join the best gym of Delhi now</h1> 
+    <form action="noaction.php">
+     <div class="form-group">
+        <input type="text" placeholder="Enter your Name :">
+     </div>
+
+     <div class="form-group">
+        <input type="text" placeholder="Enter your Age :">
+     </div>
+
+     <div class="form-group">
+        <input type="text" placeholder="Enter your Gender :">
+     </div>
+
+     <div class="form-group">
+        <input type="text" placeholder="Enter your Locality:">
+     </div>
+     <button class="btn">Submit</button>
+
+    </form>
+</div>
+
+</body>
+</html>
